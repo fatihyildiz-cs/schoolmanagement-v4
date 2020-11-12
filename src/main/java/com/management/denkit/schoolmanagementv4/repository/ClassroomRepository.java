@@ -11,5 +11,5 @@ import java.util.List;
 @Repository
 public interface ClassroomRepository extends JpaRepository<Classroom, Integer>, CrudRepository<Classroom,Integer>, JpaSpecificationExecutor<Classroom> {
 
-    List<Classroom> findAllByOrderByYearAscBranchAsc();
+    List<Classroom> findAllByOrderByGradeAscBranchAsc();
 }

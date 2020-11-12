@@ -27,7 +27,7 @@ public class StudentController {
     }
 
 
-    @GetMapping(value = "/studentlistofclass/{classroomId}", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/class/{classroomId}", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Student>> getAllStudentsInClass(@PathVariable Integer classroomId) {
 
         return new ResponseEntity(studentService.findStudentByClassroomRefId(classroomId), HttpStatus.OK);

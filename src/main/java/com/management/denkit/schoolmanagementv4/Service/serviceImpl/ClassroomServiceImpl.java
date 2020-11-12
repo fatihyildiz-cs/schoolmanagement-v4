@@ -29,7 +29,7 @@ public class ClassroomServiceImpl implements ClassroomService {
     @Override
     public List<Classroom> findAllClassrooms() {
 
-        List<Classroom> allClasses = classroomRepository.findAllByOrderByYearAscBranchAsc();
+        List<Classroom> allClasses = classroomRepository.findAllByOrderByGradeAscBranchAsc();
 
         return allClasses;
     }
@@ -60,7 +60,7 @@ public class ClassroomServiceImpl implements ClassroomService {
         Classroom actualClass  = classroomService.findClassroomById(id);
 
         actualClass.setBranch(classroom.getBranch());
-        actualClass.setYear(classroom.getYear());
+        actualClass.setGrade(classroom.getGrade());
 
         return classroomRepository.save(actualClass);
     }

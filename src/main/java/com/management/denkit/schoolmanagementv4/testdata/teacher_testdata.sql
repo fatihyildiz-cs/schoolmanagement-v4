@@ -1,0 +1,10 @@
+insert into teacher (first_name, last_name) values ('Uta', 'Newburn');
+insert into teacher (first_name, last_name) values ('Gerry', 'Gauler');
+insert into teacher (first_name, last_name) values ('Mayne', 'Branchett');
+insert into teacher (first_name, last_name) values ('Lorilee', 'Stacey');
+insert into teacher (first_name, last_name) values ('Karita', 'Brozsset');
+insert into teacher (first_name, last_name) values ('Harlan', 'Thackham');
+insert into teacher (first_name, last_name) values ('Lelia', 'Bris');
+insert into teacher (first_name, last_name) values ('Barrie', 'Neachell');
+insert into teacher (first_name, last_name) values ('Raynor', 'Boam');
+insert into teacher (first_name, last_name) values ('Charlotte', 'Sandbach');

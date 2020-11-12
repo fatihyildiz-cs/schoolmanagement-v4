@@ -1,0 +1,10 @@
+insert into parent (first_name, last_name, email, phone_number, state_id) values ('Rube', 'Antonietti', 'rantonietti0@forbes.com', '7325911357', '858-93-0584');
+insert into parent (first_name, last_name, email, phone_number, state_id) values ('Marlyn', 'Edgson', 'medgson1@google.nl', '5227725646', '645-21-2074');
+insert into parent (first_name, last_name, email, phone_number, state_id) values ('Roddy', 'Blackborn', 'rblackborn2@si.edu', '5288855467', '815-26-3419');
+insert into parent (first_name, last_name, email, phone_number, state_id) values ('Shanie', 'Glaysher', 'sglaysher3@ucoz.ru', '8793871976', '588-19-0754');
+insert into parent (first_name, last_name, email, phone_number, state_id) values ('Samuel', 'Ert', 'sert4@goodreads.com', '7647341669', '460-94-1204');
+insert into parent (first_name, last_name, email, phone_number, state_id) values ('Meredeth', 'Cellier', 'mcellier5@freewebs.com', '9452600964', '693-16-4184');
+insert into parent (first_name, last_name, email, phone_number, state_id) values ('Grady', 'Blanden', 'gblanden6@kickstarter.com', '2019026206', '342-07-7105');
+insert into parent (first_name, last_name, email, phone_number, state_id) values ('Ring', 'Esser', 'resser7@photobucket.com', '6243845629', '818-43-5398');
+insert into parent (first_name, last_name, email, phone_number, state_id) values ('Hildegarde', 'Hellens', 'hhellens8@1und1.de', '4431432935', '751-34-7876');
+insert into parent (first_name, last_name, email, phone_number, state_id) values ('Imelda', 'Van Arsdall', 'ivanarsdall9@answers.com', '3804810053', '887-26-1274');

@@ -19,11 +19,12 @@ public class Student {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
+
     private String firstName;
     private String lastName;
-    @Column(unique = true)
+
     @StateIdentityNumber
-    private Long stateIdentityNum;
+    private String stateId;
 
     @ManyToOne
     @JoinColumn(name="classroomRef")
